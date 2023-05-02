@@ -677,4 +677,10 @@ h1.hero-sub-title {
         width: 90%;
         align-items: center;
     }
+    .flex-container{
+        width: 100%;
+    }
+        .info>div.info-content{
+            align-items: center;
+        }
 }
