@@ -305,9 +305,6 @@ h1.hero-sub-title {
 
 }
 
-.image-full-width img {
-    width: 100%;
-}
 
 /* projects section in home page  and projects page*/
 .projects {
@@ -648,9 +645,10 @@ h1.hero-sub-title {
         justify-content: center;
     }
 
-    .image-full-width img {
-        height: 300px;
-    }
+        .image-full-width{
+        background-attachment: scroll;
+        }
+    
 
     #hero-button {
         width: 200px;
