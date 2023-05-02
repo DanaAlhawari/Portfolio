@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DH</title>
+</head>
+<header id="header">
+    <div id="logo">
+        <h1><a class="logo" href="index.html">DH</a></h1>
+    </div>
+
+    <div class="menu">
+        <ul class="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+
+        </ul>
+
+    </div>
+    <div class="social-menu">
+        <ul class="s-menu">
+            <li><a href="https://www.linkedin.com/in/dana-alhawari-946582230/" class="icon fa brands fa-linkedin"><span
+                        class="label"></span></a></li>
+            <li><a href="https://github.com/DanaAlhawari" class="icon fa brands fa-github"><span
+                        class="label"></span></a></li>
+        </ul>
+    </div>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+        <i class=" fa fa-bars" id="js-hamburger"></i>
+    </div>
+
+</header>
+<body>
+    <main class="main">
+        <div class="hero">
+            <div id="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-wrapper">
+                        <span class="letters">Dana Alhawari</span>
+                    </span>
+                </h1>
+                <h1 class="hero-sub-title">Web developer</h1>
+                <p>I have finished my web development program at IT-Högskola<br>
+                    Stockholm. It is an education where theory and practice are close.</p>
+                <div class="buttons">
+                    <button class="hero-button"><a href="about.html">About Me</a> </button>
+                    <button class="hero-button"><a href="projects.html">Projects</a> </button>
+        
+                </div>
+            </div>
+            <div id="hero-bild">
+                <img src="/assets/images/hero1.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="whatIDo-section">
+            <h2 data-aos="fade-up">WHAT I DO </h2>
+            <div>
+                <div>
+                    <h3>Design </h3>
+                </div>
+                <div>
+                    <h3>Frontend</h3>
+                </div>
+                <div>
+                    <h3>Backend</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-full-width">
+            <!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hero2.jpg" alt="image">-->
+        </div>
+        
+        
+        
+        <div class="projects">
+            <h2 data-aos="fade-up">PROJECTS</h2>
+            <div class="projects-main">
+            <!--project 1-->
+            <div class="projects-container" id="projects-container">
+                <img class="image" style="width:300px; height:300px" src="/assets/images/WilliamG.jpg " alt="">
+                <div class="overlay">
+                    <div class="projects-content">
+                        <h1>
+                            William G
+                        </h1>
+                        <button>
+                            <a class="icon" href="william.html">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            
+            </div>
+            <!--project 2-->
+            <div class="projects-container" id="projects-container">
+                <img class="image" style="width:300px; height:300px" src="/assets/images/lokal.jpeg " alt="">
+                <div class="overlay">
+                    <div class="projects-content">
+                        <h1>
+                            MFK fastighet
+                        </h1>
+                        <button>
+                            <a class="icon" href="mfk.html">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!--project 3-->
+            <div class="projects-container" id="projects-container">
+                <img class="image" style="width:300px; height:300px" src="/assets/images/react.jpg " alt="">
+                <div class="overlay">
+                    <div class="projects-content">
+                        <h1>
+                            React
+                        </h1>
+                        <button>
+                            <a class="icon" href="react.html">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--project 4-->
+            <div class="projects-container" id="projects-container">
+                <img class="image" style="width:300px; height:300px" src="/assets/images/js.jpg " alt="">
+                <div class="overlay">
+                    <div class="projects-content">
+                        <h1>
+                            Vanilla js
+                        </h1>
+                        <button>
+                            <a class="icon" href="vanilla.html">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            <div class="projects-buttons">
+                <button class="hero-button" id="hero-button"><a href="projects.html">Projects</a> </button>
+            </div>
+        </div>
+        
+        <div class="technologi">
+            <h2 data-aos="fade-up">TECHNOLOGIES </h2>
+            <div class="technolog-container">
+                <div class="technolog-flex" data-aos="fade-left">
+                    <div class="technolog-icons">
+                        <img src="/assets/images/html.png" alt="html-icon">
+                        <span>
+                            Html
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/css.png" alt="css-icon">
+                        <span>
+                            Css
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/javascript.png"
+                            alt="javascript-icon">
+                        <span>
+                            Javascript
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/bootstrap.png"
+                            alt="bootstrap-icon">
+                        <span>
+                            Bootstrap
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/react.png" alt="react-icon">
+                        <span>
+                            React
+                        </span>
+                    </div>
+                </div>
+                <div class="technolog-flex" data-aos="fade-right">
+                    <div class="technolog-icons">
+                        <img src="/assets/images/nodejs.png" alt="nodejs-icon">
+                        <span>
+                            Node js
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/php.png" alt="php-icon">
+                        <span>
+                            Php
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/wordpress.png"
+                            alt="wordpress-icon">
+                        <span>
+                            Wordpress
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/github.png" alt="github-icon">
+                        <span>
+                            GitHUB
+                        </span>
+                    </div>
+                    <div class="technolog-icons">
+                        <img src="/assets/images/docker.png" alt="docker-icon">
+                        <span>
+                            Docker
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            &copy; 2023
+            <b><a id="footer" href="index.html">DH</a></b>
+            av Dana Alhawari
+        </p>
+    
+    
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/effect.js"></script>
+</body>
+</html>
