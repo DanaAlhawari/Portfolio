@@ -670,7 +670,9 @@ h1.hero-sub-title {
     .about {
         flex-direction: column;
     }
-
+.about img {
+    width: 100%;
+}
     .about-content {
         width: 90%;
         align-items: center;
