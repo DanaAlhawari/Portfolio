@@ -26,12 +26,13 @@ h2 {
 
 h1.hero-sub-title {
     color: rgb(159 45 37);
-    line-height: 0rem;
+    margin-top: 0;
     font-size: 2em;
 }
 
 .hero-title {
     font-size: 3.5em;
+    margin-bottom: 0;
 }
 
 .hero-title .letter {
@@ -164,7 +165,7 @@ h1.hero-sub-title {
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto 5% auto;
+    margin: 0 auto ;
 }
 
 #hero-content {
@@ -266,7 +267,7 @@ h1.hero-sub-title {
     align-items: center;
     color: #fff;
     width: 80%;
-    margin: 5% auto;
+    margin: 0% auto;
 }
 
 .whatIDo-section div {
@@ -631,6 +632,7 @@ h1.hero-sub-title {
 
     .whatIDo-section {
         height: auto;
+        margin: 5% auto 0 auto;
     }
 
     .whatIDo-section div div {
